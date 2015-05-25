@@ -1,0 +1,10 @@
+{
+  "name": "lfa-annotations",
+  "keywords": [
+    "lfa-plugin"
+  ],
+  "dependencies": {
+    "annotator": "^2.0.0-alpha.2",
+    "node-uuid": "^1.4.3"
+  }
+}
