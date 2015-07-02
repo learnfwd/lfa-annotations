@@ -1,6 +1,6 @@
 var uuid = require('node-uuid');
-var App = require('lfa-core/app');
-var Storage = App.storage;
+var App = require('lfa-core').App;
+var Storage = require('lfa-core').Storage;
 
 var chapter = null;
 App.book.on('render', function (_chapter) {

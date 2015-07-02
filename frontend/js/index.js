@@ -1,5 +1,5 @@
 var annotator = require('annotator');
-var App = require('lfa-core/app');
+var App = require('lfa-core').App;
 var $ = require('jquery');
 var _ = require('lodash');
 var annotatorStore = require('./annotator-store');
